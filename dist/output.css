@@ -597,6 +597,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('/images/pattern-bg.svg');
 }
 
+.bg-\[url\(\'\.\.\/images\/pattern-quotes\.svg\'\)\] {
+  background-image: url('../images/pattern-quotes.svg');
+}
+
+.bg-\[url\(\'\.\/images\/pattern-quotes\.svg\'\)\] {
+  background-image: url('./images/pattern-quotes.svg');
+}
+
+.bg-\[url\(\'\.\.\/images\/pattern-bg\.svg\'\)\] {
+  background-image: url('../images/pattern-bg.svg');
+}
+
+.bg-\[url\(\'\.\.\/images\/pattern-curve\.svg\'\)\] {
+  background-image: url('../images/pattern-curve.svg');
+}
+
 .bg-\[length\:300px_60px\] {
   background-size: 300px 60px;
 }
@@ -634,10 +650,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.5rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -651,11 +663,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 .px-4 {
