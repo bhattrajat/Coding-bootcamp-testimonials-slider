@@ -6,10 +6,7 @@ const totalSliderItems = document.querySelectorAll(
 ).length;
 const prevButton = document.querySelector(".slider-container .prev");
 const nextButton = document.querySelector(".slider-container .next");
-if (
-  window.location.pathname === "/" ||
-  window.location.pathname === "/index.html"
-) {
+if (sliderContainer) {
   let counter = 1;
   if (counter <= 1) {
     prevButton.disabled = true;
@@ -69,4 +66,3 @@ if (
     // },
   });
 }
-//Using swiper.js for using-swiper.html
